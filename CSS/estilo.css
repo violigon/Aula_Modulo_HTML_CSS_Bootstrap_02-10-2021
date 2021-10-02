@@ -1,0 +1,67 @@
+/*Corpo da página*/
+body {
+	background-color: gray; /*Deixando o fundo cinza*/
+}
+/*Imagem principal*/
+.col {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	margin-top: 20px;
+	background-color: rgb(197, 197, 197);
+}
+
+/*espaçamento h1 imagem principal*/
+.col h1 {
+	margin-top: 20px;
+}
+
+/*Caixa onde fica todo o conteúdo*/
+.container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*Conteudo*/
+.col2 {
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(197, 197, 197);
+}
+
+.col2 div a {
+	width: 100%;
+}
+.col2 h1 {
+	margin-top: 20px;
+}
+/*Pequena estilização na classe existente do bootstrap*/
+.img-fluid {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*Classe separada para a imagem principal*/
+.img-fluid-2 {
+	margin-top: 20px;
+	margin-bottom: -30px;
+	border-radius: 50%;
+}
+/*Div que mantém cada conteúdon centralizado */
+.row {
+	display: flex;
+	justify-content: center;
+}
+/*mantendo as divs da row no mesmo tamanho*/
+.row div {
+	width: 100%;
+}
+
+/*Controle da estilização do Menu*/
+
+.nav-link {
+	color: honeydew;
+	padding-right: 100px;
+}
+
+.nav-link:hover {
+	color: black;
+}
